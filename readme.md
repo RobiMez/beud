@@ -100,6 +100,13 @@
 
 # Brainstorming 
 
+    notify incoming 
+    accept / decline
+    see pending 
+    mark pending 
+    identify restaurants by phone 
+
+
     bot replies should update keyboards and states
      while user inputs should soley be MDkeyboard based , ie 
     click on inline buttons for orders and app keyboards for menus and so on

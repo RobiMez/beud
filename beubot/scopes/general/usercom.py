@@ -1,16 +1,9 @@
 """[GeneralScope][UserScope] commands are defined here"""
+
 import sys
 from telegram import Update
 from telegram.ext import ContextTypes
 from telegram.ext import  ContextTypes, CommandHandler
-
-
-async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    func_name = sys._getframe().f_code.co_name
-    await context.bot.send_message(
-        chat_id=update.effective_chat.id,
-        text=f"{update.effective_chat.first_name} {func_name} ")
-
 
 async def register_as_restaurant(update: Update, context: ContextTypes.DEFAULT_TYPE):
     func_name = sys._getframe().f_code.co_name
@@ -89,9 +82,8 @@ functions = [
     # find some way to parse the functions defined and add them here 
 ]
 
-handlers = [
-    CommandHandler('start', start)
-    ,CommandHandler('register_as_restaurant', register_as_restaurant)
+__handlers__ = [
+    CommandHandler('register_as_restaurant', register_as_restaurant)
     ,CommandHandler('register_as_dispatcher', register_as_dispatcher)
     ,CommandHandler('register_for_vip', register_for_vip)
     ,CommandHandler('place_vip_order', place_asap_order)

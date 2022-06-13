@@ -1,0 +1,1456 @@
+2022-06-12 13:41:21,490 | apscheduler.scheduler | INFO | start:171 | Scheduler started
+2022-06-12 13:41:21,491 | telegram.ext._application | INFO | start:492 | Application started
+2022-06-12 13:41:30,666 | telegram.ext._application | ERROR | process_error:1484 | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_application.py", line 970, in process_update
+    await coroutine
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_handler.py", line 137, in handle_update
+    return await self.callback(update, context)
+  File "main.py", line 42, in start
+    text=f"I am alive for {st-stt} s ")
+NameError: name 'st' is not defined
+2022-06-12 13:41:36,794 | telegram.ext._application | INFO | stop:523 | Application is stopping. This might take a moment.
+2022-06-12 13:41:36,795 | apscheduler.scheduler | INFO | shutdown:202 | Scheduler has been shut down
+2022-06-12 13:41:36,806 | telegram.ext._application | INFO | stop:548 | Application.stop() complete
+2022-06-12 13:41:47,578 | apscheduler.scheduler | INFO | start:171 | Scheduler started
+2022-06-12 13:41:47,579 | telegram.ext._application | INFO | start:492 | Application started
+2022-06-12 13:42:41,981 | telegram.ext._application | INFO | stop:523 | Application is stopping. This might take a moment.
+2022-06-12 13:42:41,983 | apscheduler.scheduler | INFO | shutdown:202 | Scheduler has been shut down
+2022-06-12 13:42:41,994 | telegram.ext._application | INFO | stop:548 | Application.stop() complete
+2022-06-12 13:43:25,227 | apscheduler.scheduler | INFO | start:171 | Scheduler started
+2022-06-12 13:43:25,227 | telegram.ext._application | INFO | start:492 | Application started
+2022-06-12 13:44:03,264 | telegram.ext._application | INFO | stop:523 | Application is stopping. This might take a moment.
+2022-06-12 13:44:03,265 | apscheduler.scheduler | INFO | shutdown:202 | Scheduler has been shut down
+2022-06-12 13:44:03,276 | telegram.ext._application | INFO | stop:548 | Application.stop() complete
+2022-06-12 13:44:11,257 | apscheduler.scheduler | INFO | start:171 | Scheduler started
+2022-06-12 13:44:11,258 | telegram.ext._application | INFO | start:492 | Application started
+2022-06-12 13:47:01,794 | telegram.ext._application | INFO | stop:523 | Application is stopping. This might take a moment.
+2022-06-12 13:47:01,795 | apscheduler.scheduler | INFO | shutdown:202 | Scheduler has been shut down
+2022-06-12 13:47:01,807 | telegram.ext._application | INFO | stop:548 | Application.stop() complete
+2022-06-12 13:52:37,218 | apscheduler.scheduler | INFO | start:171 | Scheduler started
+2022-06-12 13:52:37,219 | telegram.ext._application | INFO | start:492 | Application started
+2022-06-12 13:52:47,604 | telegram.ext._application | INFO | stop:523 | Application is stopping. This might take a moment.
+2022-06-12 13:52:47,605 | apscheduler.scheduler | INFO | shutdown:202 | Scheduler has been shut down
+2022-06-12 13:52:47,616 | telegram.ext._application | INFO | stop:548 | Application.stop() complete
+2022-06-12 13:52:50,000 | apscheduler.scheduler | INFO | start:171 | Scheduler started
+2022-06-12 13:52:50,001 | telegram.ext._application | INFO | start:492 | Application started
+2022-06-12 13:54:14,213 | telegram.ext._application | INFO | stop:523 | Application is stopping. This might take a moment.
+2022-06-12 13:54:14,213 | apscheduler.scheduler | INFO | shutdown:202 | Scheduler has been shut down
+2022-06-12 13:54:14,224 | telegram.ext._application | INFO | stop:548 | Application.stop() complete
+2022-06-12 13:56:16,301 | apscheduler.scheduler | INFO | start:171 | Scheduler started
+2022-06-12 13:56:16,302 | telegram.ext._application | INFO | start:492 | Application started
+2022-06-12 13:56:25,958 | telegram.ext._application | INFO | stop:523 | Application is stopping. This might take a moment.
+2022-06-12 13:56:25,959 | apscheduler.scheduler | INFO | shutdown:202 | Scheduler has been shut down
+2022-06-12 13:56:25,969 | telegram.ext._application | INFO | stop:548 | Application.stop() complete
+2022-06-12 13:57:33,882 | apscheduler.scheduler | INFO | start:171 | Scheduler started
+2022-06-12 13:57:33,883 | telegram.ext._application | INFO | start:492 | Application started
+2022-06-12 13:57:33,973 | telegram.ext._application | INFO | stop:523 | Application is stopping. This might take a moment.
+2022-06-12 13:57:33,974 | apscheduler.scheduler | INFO | shutdown:202 | Scheduler has been shut down
+2022-06-12 13:57:33,984 | telegram.ext._application | INFO | stop:548 | Application.stop() complete
+2022-06-12 13:57:37,244 | apscheduler.scheduler | INFO | start:171 | Scheduler started
+2022-06-12 13:57:37,245 | telegram.ext._application | INFO | start:492 | Application started
+2022-06-12 14:04:42,804 | telegram.ext._application | INFO | stop:523 | Application is stopping. This might take a moment.
+2022-06-12 14:04:42,805 | apscheduler.scheduler | INFO | shutdown:202 | Scheduler has been shut down
+2022-06-12 14:04:42,816 | telegram.ext._application | INFO | stop:548 | Application.stop() complete
+2022-06-12 14:04:50,954 | apscheduler.scheduler | INFO | start:171 | Scheduler started
+2022-06-12 14:04:50,955 | telegram.ext._application | INFO | start:492 | Application started
+2022-06-12 14:05:44,927 | telegram.ext._application | INFO | stop:523 | Application is stopping. This might take a moment.
+2022-06-12 14:05:44,928 | apscheduler.scheduler | INFO | shutdown:202 | Scheduler has been shut down
+2022-06-12 14:05:44,938 | telegram.ext._application | INFO | stop:548 | Application.stop() complete
+2022-06-12 14:12:38,466 | apscheduler.scheduler | INFO | start:171 | Scheduler started
+2022-06-12 14:12:38,466 | telegram.ext._application | INFO | start:492 | Application started
+2022-06-12 14:12:43,649 | telegram.ext._application | INFO | stop:523 | Application is stopping. This might take a moment.
+2022-06-12 14:12:43,651 | apscheduler.scheduler | INFO | shutdown:202 | Scheduler has been shut down
+2022-06-12 14:12:43,662 | telegram.ext._application | INFO | stop:548 | Application.stop() complete
+2022-06-12 16:50:57,479 | apscheduler.scheduler | INFO | start:171 | Scheduler started
+2022-06-12 16:50:57,479 | telegram.ext._application | INFO | start:492 | Application started
+2022-06-12 16:50:59,233 | telegram.ext._application | INFO | stop:523 | Application is stopping. This might take a moment.
+2022-06-12 16:50:59,234 | apscheduler.scheduler | INFO | shutdown:202 | Scheduler has been shut down
+2022-06-12 16:50:59,245 | telegram.ext._application | INFO | stop:548 | Application.stop() complete
+2022-06-12 16:51:07,520 | apscheduler.scheduler | INFO | start:171 | Scheduler started
+2022-06-12 16:51:07,520 | telegram.ext._application | INFO | start:492 | Application started
+2022-06-12 16:56:05,032 | telegram.ext._application | INFO | stop:523 | Application is stopping. This might take a moment.
+2022-06-12 16:56:05,032 | apscheduler.scheduler | INFO | shutdown:202 | Scheduler has been shut down
+2022-06-12 16:56:05,043 | telegram.ext._application | INFO | stop:548 | Application.stop() complete
+2022-06-12 21:23:20,789 | apscheduler.scheduler | INFO | start:171 | Scheduler started
+2022-06-12 21:23:20,797 | telegram.ext._application | INFO | start:492 | Application started
+2022-06-12 21:50:38,194 | telegram.ext._updater | ERROR | _network_loop_retry:569 | Error while getting Updates: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 21:50:38,194 | telegram.ext._application | ERROR | process_error:1484 | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 8, in map_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 190, in connect_tcp
+    target_host, remote_port, family=family, type=socket.SOCK_STREAM
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 497, in getaddrinfo
+    encoded_host, port, family=family, type=type, proto=proto, flags=flags
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_backends/_asyncio.py", line 1755, in getaddrinfo
+    host, port, family=family, type=type, proto=proto, flags=flags
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 792, in getaddrinfo
+    None, getaddr_func, host, port, family, type, proto, flags)
+  File "/usr/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 253, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 237, in handle_async_request
+    response = await connection.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 86, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 63, in handle_async_request
+    stream = await self._connect(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 111, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/auto.py", line 30, in connect_tcp
+    host, port, timeout=timeout, local_address=local_address
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 12, in map_exceptions
+    raise to_exc(exc)
+httpcore.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 180, in do_request
+    data=data,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1527, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1618, in send
+    history=[],
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1645, in _send_handling_auth
+    history=history,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1679, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1716, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 556, in _network_loop_retry
+    if not await action_cb():
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 318, in polling_action_cb
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 310, in polling_action_cb
+    allowed_updates=allowed_updates,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_extbot.py", line 294, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 236, in decorator
+    result = await func(*args, **kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 3778, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 315, in _post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 169, in post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 285, in _request_wrapper
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 278, in _request_wrapper
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 195, in do_request
+    raise NetworkError(f"httpx HTTPError: {err}") from err
+telegram.error.NetworkError: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 21:58:41,033 | telegram.ext._updater | ERROR | _network_loop_retry:569 | Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2022-06-12 21:58:41,034 | telegram.ext._application | ERROR | process_error:1484 | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 556, in _network_loop_retry
+    if not await action_cb():
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 318, in polling_action_cb
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 310, in polling_action_cb
+    allowed_updates=allowed_updates,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_extbot.py", line 294, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 236, in decorator
+    result = await func(*args, **kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 3778, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 315, in _post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 169, in post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 327, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2022-06-12 23:01:23,943 | telegram.ext._updater | ERROR | _network_loop_retry:569 | Error while getting Updates: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:01:23,943 | telegram.ext._application | ERROR | process_error:1484 | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 8, in map_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 190, in connect_tcp
+    target_host, remote_port, family=family, type=socket.SOCK_STREAM
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 497, in getaddrinfo
+    encoded_host, port, family=family, type=type, proto=proto, flags=flags
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_backends/_asyncio.py", line 1755, in getaddrinfo
+    host, port, family=family, type=type, proto=proto, flags=flags
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 792, in getaddrinfo
+    None, getaddr_func, host, port, family, type, proto, flags)
+  File "/usr/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 253, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 237, in handle_async_request
+    response = await connection.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 86, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 63, in handle_async_request
+    stream = await self._connect(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 111, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/auto.py", line 30, in connect_tcp
+    host, port, timeout=timeout, local_address=local_address
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 12, in map_exceptions
+    raise to_exc(exc)
+httpcore.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 180, in do_request
+    data=data,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1527, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1618, in send
+    history=[],
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1645, in _send_handling_auth
+    history=history,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1679, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1716, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 556, in _network_loop_retry
+    if not await action_cb():
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 318, in polling_action_cb
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 310, in polling_action_cb
+    allowed_updates=allowed_updates,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_extbot.py", line 294, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 236, in decorator
+    result = await func(*args, **kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 3778, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 315, in _post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 169, in post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 285, in _request_wrapper
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 278, in _request_wrapper
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 195, in do_request
+    raise NetworkError(f"httpx HTTPError: {err}") from err
+telegram.error.NetworkError: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:02:35,266 | telegram.ext._updater | ERROR | _network_loop_retry:569 | Error while getting Updates: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:02:35,266 | telegram.ext._application | ERROR | process_error:1484 | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 8, in map_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 190, in connect_tcp
+    target_host, remote_port, family=family, type=socket.SOCK_STREAM
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 497, in getaddrinfo
+    encoded_host, port, family=family, type=type, proto=proto, flags=flags
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_backends/_asyncio.py", line 1755, in getaddrinfo
+    host, port, family=family, type=type, proto=proto, flags=flags
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 792, in getaddrinfo
+    None, getaddr_func, host, port, family, type, proto, flags)
+  File "/usr/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 253, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 237, in handle_async_request
+    response = await connection.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 86, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 63, in handle_async_request
+    stream = await self._connect(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 111, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/auto.py", line 30, in connect_tcp
+    host, port, timeout=timeout, local_address=local_address
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 12, in map_exceptions
+    raise to_exc(exc)
+httpcore.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 180, in do_request
+    data=data,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1527, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1618, in send
+    history=[],
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1645, in _send_handling_auth
+    history=history,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1679, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1716, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 556, in _network_loop_retry
+    if not await action_cb():
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 318, in polling_action_cb
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 310, in polling_action_cb
+    allowed_updates=allowed_updates,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_extbot.py", line 294, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 236, in decorator
+    result = await func(*args, **kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 3778, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 315, in _post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 169, in post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 285, in _request_wrapper
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 278, in _request_wrapper
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 195, in do_request
+    raise NetworkError(f"httpx HTTPError: {err}") from err
+telegram.error.NetworkError: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:03:06,309 | telegram.ext._updater | ERROR | _network_loop_retry:569 | Error while getting Updates: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:03:06,310 | telegram.ext._application | ERROR | process_error:1484 | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 8, in map_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 190, in connect_tcp
+    target_host, remote_port, family=family, type=socket.SOCK_STREAM
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 497, in getaddrinfo
+    encoded_host, port, family=family, type=type, proto=proto, flags=flags
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_backends/_asyncio.py", line 1755, in getaddrinfo
+    host, port, family=family, type=type, proto=proto, flags=flags
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 792, in getaddrinfo
+    None, getaddr_func, host, port, family, type, proto, flags)
+  File "/usr/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 253, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 237, in handle_async_request
+    response = await connection.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 86, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 63, in handle_async_request
+    stream = await self._connect(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 111, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/auto.py", line 30, in connect_tcp
+    host, port, timeout=timeout, local_address=local_address
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 12, in map_exceptions
+    raise to_exc(exc)
+httpcore.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 180, in do_request
+    data=data,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1527, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1618, in send
+    history=[],
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1645, in _send_handling_auth
+    history=history,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1679, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1716, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 556, in _network_loop_retry
+    if not await action_cb():
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 318, in polling_action_cb
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 310, in polling_action_cb
+    allowed_updates=allowed_updates,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_extbot.py", line 294, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 236, in decorator
+    result = await func(*args, **kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 3778, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 315, in _post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 169, in post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 285, in _request_wrapper
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 278, in _request_wrapper
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 195, in do_request
+    raise NetworkError(f"httpx HTTPError: {err}") from err
+telegram.error.NetworkError: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:03:07,316 | telegram.ext._updater | ERROR | _network_loop_retry:569 | Error while getting Updates: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:03:07,316 | telegram.ext._application | ERROR | process_error:1484 | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 8, in map_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 190, in connect_tcp
+    target_host, remote_port, family=family, type=socket.SOCK_STREAM
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 497, in getaddrinfo
+    encoded_host, port, family=family, type=type, proto=proto, flags=flags
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_backends/_asyncio.py", line 1755, in getaddrinfo
+    host, port, family=family, type=type, proto=proto, flags=flags
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 792, in getaddrinfo
+    None, getaddr_func, host, port, family, type, proto, flags)
+  File "/usr/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 253, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 237, in handle_async_request
+    response = await connection.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 86, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 63, in handle_async_request
+    stream = await self._connect(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 111, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/auto.py", line 30, in connect_tcp
+    host, port, timeout=timeout, local_address=local_address
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 12, in map_exceptions
+    raise to_exc(exc)
+httpcore.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 180, in do_request
+    data=data,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1527, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1618, in send
+    history=[],
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1645, in _send_handling_auth
+    history=history,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1679, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1716, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 556, in _network_loop_retry
+    if not await action_cb():
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 318, in polling_action_cb
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 310, in polling_action_cb
+    allowed_updates=allowed_updates,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_extbot.py", line 294, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 236, in decorator
+    result = await func(*args, **kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 3778, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 315, in _post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 169, in post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 285, in _request_wrapper
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 278, in _request_wrapper
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 195, in do_request
+    raise NetworkError(f"httpx HTTPError: {err}") from err
+telegram.error.NetworkError: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:03:08,821 | telegram.ext._updater | ERROR | _network_loop_retry:569 | Error while getting Updates: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:03:08,821 | telegram.ext._application | ERROR | process_error:1484 | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 8, in map_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 190, in connect_tcp
+    target_host, remote_port, family=family, type=socket.SOCK_STREAM
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 497, in getaddrinfo
+    encoded_host, port, family=family, type=type, proto=proto, flags=flags
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_backends/_asyncio.py", line 1755, in getaddrinfo
+    host, port, family=family, type=type, proto=proto, flags=flags
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 792, in getaddrinfo
+    None, getaddr_func, host, port, family, type, proto, flags)
+  File "/usr/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 253, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 237, in handle_async_request
+    response = await connection.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 86, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 63, in handle_async_request
+    stream = await self._connect(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 111, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/auto.py", line 30, in connect_tcp
+    host, port, timeout=timeout, local_address=local_address
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 12, in map_exceptions
+    raise to_exc(exc)
+httpcore.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 180, in do_request
+    data=data,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1527, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1618, in send
+    history=[],
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1645, in _send_handling_auth
+    history=history,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1679, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1716, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 556, in _network_loop_retry
+    if not await action_cb():
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 318, in polling_action_cb
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 310, in polling_action_cb
+    allowed_updates=allowed_updates,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_extbot.py", line 294, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 236, in decorator
+    result = await func(*args, **kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 3778, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 315, in _post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 169, in post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 285, in _request_wrapper
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 278, in _request_wrapper
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 195, in do_request
+    raise NetworkError(f"httpx HTTPError: {err}") from err
+telegram.error.NetworkError: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:03:16,083 | telegram.ext._updater | ERROR | _network_loop_retry:569 | Error while getting Updates: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:03:16,084 | telegram.ext._application | ERROR | process_error:1484 | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 8, in map_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 190, in connect_tcp
+    target_host, remote_port, family=family, type=socket.SOCK_STREAM
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 497, in getaddrinfo
+    encoded_host, port, family=family, type=type, proto=proto, flags=flags
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_backends/_asyncio.py", line 1755, in getaddrinfo
+    host, port, family=family, type=type, proto=proto, flags=flags
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 792, in getaddrinfo
+    None, getaddr_func, host, port, family, type, proto, flags)
+  File "/usr/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 253, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 237, in handle_async_request
+    response = await connection.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 86, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 63, in handle_async_request
+    stream = await self._connect(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 111, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/auto.py", line 30, in connect_tcp
+    host, port, timeout=timeout, local_address=local_address
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 12, in map_exceptions
+    raise to_exc(exc)
+httpcore.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 180, in do_request
+    data=data,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1527, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1618, in send
+    history=[],
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1645, in _send_handling_auth
+    history=history,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1679, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1716, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 556, in _network_loop_retry
+    if not await action_cb():
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 318, in polling_action_cb
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 310, in polling_action_cb
+    allowed_updates=allowed_updates,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_extbot.py", line 294, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 236, in decorator
+    result = await func(*args, **kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 3778, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 315, in _post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 169, in post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 285, in _request_wrapper
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 278, in _request_wrapper
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 195, in do_request
+    raise NetworkError(f"httpx HTTPError: {err}") from err
+telegram.error.NetworkError: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:03:52,129 | telegram.ext._updater | ERROR | _network_loop_retry:569 | Error while getting Updates: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:03:52,130 | telegram.ext._application | ERROR | process_error:1484 | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 8, in map_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 190, in connect_tcp
+    target_host, remote_port, family=family, type=socket.SOCK_STREAM
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 497, in getaddrinfo
+    encoded_host, port, family=family, type=type, proto=proto, flags=flags
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_backends/_asyncio.py", line 1755, in getaddrinfo
+    host, port, family=family, type=type, proto=proto, flags=flags
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 792, in getaddrinfo
+    None, getaddr_func, host, port, family, type, proto, flags)
+  File "/usr/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 253, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 237, in handle_async_request
+    response = await connection.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 86, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 63, in handle_async_request
+    stream = await self._connect(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 111, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/auto.py", line 30, in connect_tcp
+    host, port, timeout=timeout, local_address=local_address
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 12, in map_exceptions
+    raise to_exc(exc)
+httpcore.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 180, in do_request
+    data=data,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1527, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1618, in send
+    history=[],
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1645, in _send_handling_auth
+    history=history,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1679, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1716, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 556, in _network_loop_retry
+    if not await action_cb():
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 318, in polling_action_cb
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 310, in polling_action_cb
+    allowed_updates=allowed_updates,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_extbot.py", line 294, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 236, in decorator
+    result = await func(*args, **kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 3778, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 315, in _post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 169, in post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 285, in _request_wrapper
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 278, in _request_wrapper
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 195, in do_request
+    raise NetworkError(f"httpx HTTPError: {err}") from err
+telegram.error.NetworkError: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:04:28,176 | telegram.ext._updater | ERROR | _network_loop_retry:569 | Error while getting Updates: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:04:28,177 | telegram.ext._application | ERROR | process_error:1484 | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 8, in map_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 190, in connect_tcp
+    target_host, remote_port, family=family, type=socket.SOCK_STREAM
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 497, in getaddrinfo
+    encoded_host, port, family=family, type=type, proto=proto, flags=flags
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_backends/_asyncio.py", line 1755, in getaddrinfo
+    host, port, family=family, type=type, proto=proto, flags=flags
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 792, in getaddrinfo
+    None, getaddr_func, host, port, family, type, proto, flags)
+  File "/usr/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 253, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 237, in handle_async_request
+    response = await connection.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 86, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 63, in handle_async_request
+    stream = await self._connect(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 111, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/auto.py", line 30, in connect_tcp
+    host, port, timeout=timeout, local_address=local_address
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 12, in map_exceptions
+    raise to_exc(exc)
+httpcore.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 180, in do_request
+    data=data,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1527, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1618, in send
+    history=[],
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1645, in _send_handling_auth
+    history=history,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1679, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1716, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 556, in _network_loop_retry
+    if not await action_cb():
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 318, in polling_action_cb
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 310, in polling_action_cb
+    allowed_updates=allowed_updates,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_extbot.py", line 294, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 236, in decorator
+    result = await func(*args, **kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 3778, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 315, in _post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 169, in post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 285, in _request_wrapper
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 278, in _request_wrapper
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 195, in do_request
+    raise NetworkError(f"httpx HTTPError: {err}") from err
+telegram.error.NetworkError: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:04:29,184 | telegram.ext._updater | ERROR | _network_loop_retry:569 | Error while getting Updates: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:04:29,184 | telegram.ext._application | ERROR | process_error:1484 | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 8, in map_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 190, in connect_tcp
+    target_host, remote_port, family=family, type=socket.SOCK_STREAM
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 497, in getaddrinfo
+    encoded_host, port, family=family, type=type, proto=proto, flags=flags
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_backends/_asyncio.py", line 1755, in getaddrinfo
+    host, port, family=family, type=type, proto=proto, flags=flags
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 792, in getaddrinfo
+    None, getaddr_func, host, port, family, type, proto, flags)
+  File "/usr/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 253, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 237, in handle_async_request
+    response = await connection.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 86, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 63, in handle_async_request
+    stream = await self._connect(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 111, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/auto.py", line 30, in connect_tcp
+    host, port, timeout=timeout, local_address=local_address
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 12, in map_exceptions
+    raise to_exc(exc)
+httpcore.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 180, in do_request
+    data=data,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1527, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1618, in send
+    history=[],
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1645, in _send_handling_auth
+    history=history,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1679, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1716, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 556, in _network_loop_retry
+    if not await action_cb():
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 318, in polling_action_cb
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 310, in polling_action_cb
+    allowed_updates=allowed_updates,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_extbot.py", line 294, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 236, in decorator
+    result = await func(*args, **kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 3778, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 315, in _post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 169, in post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 285, in _request_wrapper
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 278, in _request_wrapper
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 195, in do_request
+    raise NetworkError(f"httpx HTTPError: {err}") from err
+telegram.error.NetworkError: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:04:30,691 | telegram.ext._updater | ERROR | _network_loop_retry:569 | Error while getting Updates: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:04:30,692 | telegram.ext._application | ERROR | process_error:1484 | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 8, in map_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 190, in connect_tcp
+    target_host, remote_port, family=family, type=socket.SOCK_STREAM
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 497, in getaddrinfo
+    encoded_host, port, family=family, type=type, proto=proto, flags=flags
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_backends/_asyncio.py", line 1755, in getaddrinfo
+    host, port, family=family, type=type, proto=proto, flags=flags
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 792, in getaddrinfo
+    None, getaddr_func, host, port, family, type, proto, flags)
+  File "/usr/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 253, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 237, in handle_async_request
+    response = await connection.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 86, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 63, in handle_async_request
+    stream = await self._connect(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 111, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/auto.py", line 30, in connect_tcp
+    host, port, timeout=timeout, local_address=local_address
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 12, in map_exceptions
+    raise to_exc(exc)
+httpcore.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 180, in do_request
+    data=data,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1527, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1618, in send
+    history=[],
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1645, in _send_handling_auth
+    history=history,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1679, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1716, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 556, in _network_loop_retry
+    if not await action_cb():
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 318, in polling_action_cb
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 310, in polling_action_cb
+    allowed_updates=allowed_updates,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_extbot.py", line 294, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 236, in decorator
+    result = await func(*args, **kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 3778, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 315, in _post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 169, in post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 285, in _request_wrapper
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 278, in _request_wrapper
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 195, in do_request
+    raise NetworkError(f"httpx HTTPError: {err}") from err
+telegram.error.NetworkError: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:04:37,956 | telegram.ext._updater | ERROR | _network_loop_retry:569 | Error while getting Updates: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:04:37,957 | telegram.ext._application | ERROR | process_error:1484 | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 8, in map_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 190, in connect_tcp
+    target_host, remote_port, family=family, type=socket.SOCK_STREAM
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 497, in getaddrinfo
+    encoded_host, port, family=family, type=type, proto=proto, flags=flags
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_backends/_asyncio.py", line 1755, in getaddrinfo
+    host, port, family=family, type=type, proto=proto, flags=flags
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 792, in getaddrinfo
+    None, getaddr_func, host, port, family, type, proto, flags)
+  File "/usr/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 253, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 237, in handle_async_request
+    response = await connection.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 86, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 63, in handle_async_request
+    stream = await self._connect(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 111, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/auto.py", line 30, in connect_tcp
+    host, port, timeout=timeout, local_address=local_address
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 12, in map_exceptions
+    raise to_exc(exc)
+httpcore.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 180, in do_request
+    data=data,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1527, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1618, in send
+    history=[],
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1645, in _send_handling_auth
+    history=history,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1679, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1716, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 556, in _network_loop_retry
+    if not await action_cb():
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 318, in polling_action_cb
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 310, in polling_action_cb
+    allowed_updates=allowed_updates,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_extbot.py", line 294, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 236, in decorator
+    result = await func(*args, **kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 3778, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 315, in _post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 169, in post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 285, in _request_wrapper
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 278, in _request_wrapper
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 195, in do_request
+    raise NetworkError(f"httpx HTTPError: {err}") from err
+telegram.error.NetworkError: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:05:13,985 | telegram.ext._updater | ERROR | _network_loop_retry:569 | Error while getting Updates: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:05:13,986 | telegram.ext._application | ERROR | process_error:1484 | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 8, in map_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 190, in connect_tcp
+    target_host, remote_port, family=family, type=socket.SOCK_STREAM
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 497, in getaddrinfo
+    encoded_host, port, family=family, type=type, proto=proto, flags=flags
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_backends/_asyncio.py", line 1755, in getaddrinfo
+    host, port, family=family, type=type, proto=proto, flags=flags
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 792, in getaddrinfo
+    None, getaddr_func, host, port, family, type, proto, flags)
+  File "/usr/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 253, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 237, in handle_async_request
+    response = await connection.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 86, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 63, in handle_async_request
+    stream = await self._connect(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 111, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/auto.py", line 30, in connect_tcp
+    host, port, timeout=timeout, local_address=local_address
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 12, in map_exceptions
+    raise to_exc(exc)
+httpcore.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 180, in do_request
+    data=data,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1527, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1618, in send
+    history=[],
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1645, in _send_handling_auth
+    history=history,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1679, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1716, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 556, in _network_loop_retry
+    if not await action_cb():
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 318, in polling_action_cb
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 310, in polling_action_cb
+    allowed_updates=allowed_updates,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_extbot.py", line 294, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 236, in decorator
+    result = await func(*args, **kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 3778, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 315, in _post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 169, in post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 285, in _request_wrapper
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 278, in _request_wrapper
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 195, in do_request
+    raise NetworkError(f"httpx HTTPError: {err}") from err
+telegram.error.NetworkError: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:06:00,034 | telegram.ext._updater | ERROR | _network_loop_retry:569 | Error while getting Updates: httpx HTTPError: [Errno -2] Name or service not known
+2022-06-12 23:06:00,034 | telegram.ext._application | ERROR | process_error:1484 | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 8, in map_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 190, in connect_tcp
+    target_host, remote_port, family=family, type=socket.SOCK_STREAM
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_core/_sockets.py", line 497, in getaddrinfo
+    encoded_host, port, family=family, type=type, proto=proto, flags=flags
+  File "/home/bori/.local/lib/python3.7/site-packages/anyio/_backends/_asyncio.py", line 1755, in getaddrinfo
+    host, port, family=family, type=type, proto=proto, flags=flags
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 792, in getaddrinfo
+    None, getaddr_func, host, port, family, type, proto, flags)
+  File "/usr/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 253, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection_pool.py", line 237, in handle_async_request
+    response = await connection.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 86, in handle_async_request
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 63, in handle_async_request
+    stream = await self._connect(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_async/connection.py", line 111, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/auto.py", line 30, in connect_tcp
+    host, port, timeout=timeout, local_address=local_address
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/backends/asyncio.py", line 112, in connect_tcp
+    local_host=local_address,
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpcore/_exceptions.py", line 12, in map_exceptions
+    raise to_exc(exc)
+httpcore.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 180, in do_request
+    data=data,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1527, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1618, in send
+    history=[],
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1645, in _send_handling_auth
+    history=history,
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1679, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_client.py", line 1716, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/usr/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/bori/.local/lib/python3.7/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 556, in _network_loop_retry
+    if not await action_cb():
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 318, in polling_action_cb
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_updater.py", line 310, in polling_action_cb
+    allowed_updates=allowed_updates,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/ext/_extbot.py", line 294, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 236, in decorator
+    result = await func(*args, **kwargs)
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 3778, in get_updates
+    api_kwargs=api_kwargs,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/_bot.py", line 315, in _post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 169, in post
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 285, in _request_wrapper
+    raise exc
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_baserequest.py", line 278, in _request_wrapper
+    pool_timeout=pool_timeout,
+  File "/home/bori/.local/lib/python3.7/site-packages/telegram/request/_httpxrequest.py", line 195, in do_request
+    raise NetworkError(f"httpx HTTPError: {err}") from err
+telegram.error.NetworkError: httpx HTTPError: [Errno -2] Name or service not known
