@@ -1,6 +1,15 @@
 """[GeneralScope][UserScope] commands are defined here"""
 
 import sys
+import inspect
+import sys
+
+from misc.exporter import exporter
+
+from beubot.controllers.crud import users, rests, orders
+from beubot.keyboards.startkbd import start_keyboard
+
+
 from telegram import Update
 from telegram.ext import ContextTypes
 from telegram.ext import  ContextTypes, CommandHandler
@@ -78,19 +87,5 @@ async def rate(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 
-functions = [
-    # find some way to parse the functions defined and add them here 
-]
-
-__handlers__ = [
-    CommandHandler('register_as_restaurant', register_as_restaurant)
-    ,CommandHandler('register_as_dispatcher', register_as_dispatcher)
-    ,CommandHandler('register_for_vip', register_for_vip)
-    ,CommandHandler('place_vip_order', place_asap_order)
-    ,CommandHandler('place_order', place_order)
-    ,CommandHandler('cancel_order', cancel_order)
-    ,CommandHandler('submit_order', submit_order)
-    ,CommandHandler('order_recieved', order_recieved)
-    ,CommandHandler('list_placed_orders', list_placed_orders)
-    ,CommandHandler('rate', rate)
-]
+if __name__ != '__main__':
+    __handlers__ = exporter(inspect.getmembers(sys.modules[__name__])).export()
