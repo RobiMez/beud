@@ -16,13 +16,7 @@ from telegram.ext import Defaults, PicklePersistence , filters
 from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler , MessageHandler
 
 
-from pymongo import MongoClient
-client = MongoClient('mongodb://localhost:27017/')
-db = client.beubot
-# database definitions
-users = db['users']
-rests = db['restaurants']
-orders = db['orders']
+
 
 # -- local imports [ breaking up this file ] -- #
 # from beubot.scopes.general.usercom import handlers as gen_user_hlr

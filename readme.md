@@ -107,7 +107,7 @@
     identify restaurants by phone 
 
 
-    bot replies should update keyboards and states
+    bot replies should update keyboards and states and talk text
      while user inputs should soley be MDkeyboard based , ie 
     click on inline buttons for orders and app keyboards for menus and so on
 
