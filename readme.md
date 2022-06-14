@@ -3,14 +3,18 @@
  ##   Project is built with the bleeding edge version of python telegram bot ie. v20 prerelease0 and supports bot api 6.0. 
  
  ### bot can be found at @BeuDeliveriesBot
- it implements cool things like , local pickle persistence , state management and also modular programming.
+ It implements cool things like , local pickle persistence , state management and also prompt-handler flows.
 
-    to run it locally , clone the repo , add the deadsnakes ppa if your python version is lower than 3.7 and apt install python3.7
-    then do python3.7 -m pip install requirements.txt 
-    then just simply python3.7 main.py
+    To run it locally , clone the repo
+    Add the deadsnakes ppa if your python version is lower than 3.7 and apt install python3.7
+    
+    Then do python3.7 -m pip install requirements.txt 
+    Then do python3.7 -m pip install python-telegram-bot --pre
+    
+    Then just simply python3.7 main.py
 
 
-some of the features here have not been implemented due to time constraints.[ there is only so much one dev can do with only 5 days ]
+Some of the features here have not been implemented due to time constraints.[ There is only so much one dev can do with only 5 days ]
    ![image](https://user-images.githubusercontent.com/53259730/173704397-441a3d05-055e-4f4b-84f1-74c3a4d08fd6.png)
  
 
