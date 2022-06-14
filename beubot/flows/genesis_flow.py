@@ -16,9 +16,9 @@ from .prompts.genesis_prt import genesis_welcome_and_onboarding
 from .prompts.genesis_prt import prompt_phone_info
 from .prompts.genesis_prt import prompt_genesis_role 
 
-# from .prompts.nominal_prt import nominal_welcome_prompt
-# from .prompts.nominal_prt import nominal_menu_prompt
-# from .prompts.nominal_prt import nominal_rest_menu_prompt
+from .prompts.nominal_prt import nominal_welcome_prompt
+from .prompts.nominal_prt import nominal_menu_prompt
+from .prompts.nominal_prt import nominal_rest_menu_prompt
 
 
 async def genesis_init(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -61,11 +61,11 @@ async def genesis_persist(update, context):
     context.user_data['state'] = 'nominal'
     # send user to the main menu
     await context.bot.send_message(chat_id=update.effective_user.id, text="Welcome to BeuBot")
-    # await nominal_welcome_prompt(update, context)
-    # if context.user_data['role'] == 'general':
-    #     await nominal_menu_prompt(update, context)
-    # elif context.user_data['role'] == 'restaurant':
-    #     await nominal_rest_menu_prompt(update, context)
+    await nominal_welcome_prompt(update, context)
+    if context.user_data['role'] == 'general':
+        await nominal_menu_prompt(update, context)
+    elif context.user_data['role'] == 'restaurant':
+        await nominal_rest_menu_prompt(update, context)
 
 
 def genesis_nuke_and_recreate(update, context):

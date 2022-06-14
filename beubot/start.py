@@ -9,7 +9,7 @@ from misc.colors import P, C
 from misc.exporter import exporter
 
 from .flows.genesis_flow import exec_genesis_new_user_flow
-from .flows.prompts.nominal_prt import nominal_menu_prompt , nominal_rest_menu_prompt
+from .flows.prompts.nominal_prt import nominal_menu_prompt, nominal_rest_menu_prompt
 p = P()
 c = C()
 
@@ -25,7 +25,7 @@ async def start_hlr(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await exec_genesis_new_user_flow(update, context)
     else:
         print('User already has state')
-        
+
         # check the role and direct to each of the appropriate functions handling that role
         state = context.user_data['state']
         role = context.user_data['role']
@@ -36,16 +36,24 @@ async def start_hlr(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 await nominal_menu_prompt(update, context)
             elif role == 'restaurant':
                 await nominal_rest_menu_prompt(update, context)
-        else :
+        else:
             print('state not nominal')
 start_hlr.hlr = CommandHandler("start", start_hlr)
+
 
 async def context_hlr(update: Update, context: ContextTypes.DEFAULT_TYPE):
     print(f"\nExec : {sys._getframe().f_code.co_name}")
 
     await context.bot.send_message(
-        chat_id=update.effective_user.id, 
-        text=f"{    context.bot_data}\n\n{    context.chat_data}\n\n{    context.user_data}")
+        chat_id=update.effective_user.id,
+        text=f"{str(context.bot_data)}",
+        parse_mode=None)
+    await context.bot.send_message(
+        chat_id=update.effective_user.id,
+        text=f"{str(context.chat_data)}",parse_mode=None)
+    await context.bot.send_message(
+        chat_id=update.effective_user.id,
+        text=f"{str(context.user_data)}",parse_mode=None)
 context_hlr.hlr = CommandHandler("context", context_hlr)
 
 

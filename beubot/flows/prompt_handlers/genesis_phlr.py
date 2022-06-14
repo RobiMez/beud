@@ -31,6 +31,7 @@ from ..prompts.genesis_prt import respond_to_restaurant_state
 async def restaurant_hlr(update, context):
     context.user_data['role'] = 'restaurant'
     context.user_data['orders'] = []
+    context.user_data['menu'] = ['Burger', 'Pizza', 'Pasta'] # TODO: add food menu programmatically 
     context.user_data['state'] = 'genesis:role'
     await respond_to_restaurant_state(update, context)
     await genesis_persist(update, context)

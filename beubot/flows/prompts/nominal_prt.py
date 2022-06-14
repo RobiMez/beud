@@ -1,4 +1,4 @@
-from telegram import InlineKeyboardMarkup, Update, ReplyKeyboardMarkup, ReplyKeyboardRemove
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update, ReplyKeyboardMarkup, ReplyKeyboardRemove
 from telegram.ext import ContextTypes
 
 from ..keyboards.nominal_keyboards import nominal_r_menu, nominal_menu  
@@ -34,16 +34,27 @@ async def nominal_rest_menu_prompt(update: Update, context: ContextTypes.DEFAULT
         ),
         reply_markup=reply_markup)
 
-# async def choose_rest_prompt(update: Update, context: ContextTypes.DEFAULT_TYPE):
-#     dkeyboard = make_restaurant_keyboard(update , context)
-#     print(dkeyboard)
-#     reply_markup = InlineKeyboardMarkup(dkeyboard)
-#     await context.bot.send_message(
-#         chat_id=update.effective_chat.id,
-#         text=(
-#             f"<b>Choose the restaurant.</b>\n"
-#         ),
-#         reply_markup=reply_markup)
+async def choose_rest_prompt(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    users = context.bot_data
+    restaurants = []
+    for user in users :
+        if users[user]['role'] == 'restaurant' :
+            restaurants.append((users[user]['full_name'] , user))
+        # print()
+    print(restaurants)
+    keyboard = []
+    for restaurant in restaurants :
+        keyboard.append([InlineKeyboardButton(text=restaurant[0], callback_data='restaurant_'+str(restaurant[1]))])
+
+
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    message = await context.bot.send_message(
+        chat_id=update.effective_chat.id,
+        text=(
+            f"<b>Choose the restaurant.</b>\n"
+        ),
+        reply_markup=reply_markup)
+    context.user_data['message'] = message
 
 # async def choose_food_prompt(update: Update, context: ContextTypes.DEFAULT_TYPE):
 #     dkeyboard = food_menu

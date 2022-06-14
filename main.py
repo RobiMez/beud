@@ -17,7 +17,7 @@ from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, Messa
 
 from beubot.start import __handlers__ as start_hlr
 from beubot.flows.prompt_handlers.genesis_phlr import __handlers__ as genesis_phlr
-# from beubot.flows.prompt_handlers.nominal_phlr import __handlers__ as nominal_phlr
+from beubot.flows.prompt_handlers.nominal_phlr import __handlers__ as nominal_phlr
 
 # Make directory if not exists
 if not os.path.exists('./logs'):
@@ -65,6 +65,8 @@ def main():
     for handler in start_hlr:
         handlers.append(handler)
     for handler in genesis_phlr:
+        handlers.append(handler)
+    for handler in nominal_phlr:
         handlers.append(handler)
 
     # TODO: glob the filetree for anything with _handlers that exports handlers and link them

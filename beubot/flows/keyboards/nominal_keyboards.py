@@ -3,19 +3,20 @@ from misc.menu_builder import build_menu
 
 
 str_place_order = "➕ Place order"
-str_view_orders = "👀 View placed orders"
+# str_view_orders = "👀 View placed orders"
 
 nominal_menu = [
     [str_place_order],
-    [str_view_orders]
+    # [str_view_orders]
 ]
 
-str_r_view_orders = "👀 View pending orders"
+str_r_view_orders = "👀 View orders"
+str_r_view_accepted_orders = "👀  View Accepted orders"
 # str_r_add_menu = "➕ Add a new food menu"
 
 nominal_r_menu = [
     [str_r_view_orders],
-    # [str_r_add_menu]
+    [str_r_view_accepted_orders]
 ]
 # # --------------------------------
 # async def make_restaurant_keyboard(update,context):
