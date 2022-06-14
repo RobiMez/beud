@@ -5,7 +5,7 @@ class User:
         self.phone: 'phone'
         self.name: telegram_identifier
         self.telegram_id = telegram_id
-
+        self.role = None
         self.live_orders = []
         self.order_history = []
 

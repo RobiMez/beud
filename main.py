@@ -1,6 +1,6 @@
 """ Main script """
 
-from beubot.start import __handlers__ as start_hlr
+from pathlib import Path
 import os
 import logging
 from logging import handlers as lhand
@@ -24,6 +24,10 @@ from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler , Mess
 # from beubot.scopes.admin.admincom import admincom_hlr
 # from beubot.scopes.dispatcher.dispcom import dispcom_hlr
 # -- local imports [ breaking up this file ] -- #
+from beubot.scopes.general.start import __handlers__ as start_hlr
+from beubot.scopes.admin.admincom import __handlers__ as admin_hlr
+from beubot.scopes.general.flows.prompt_handlers.genesis_phlr import __handlers__ as genesis_phlr
+
 
 
 # make directory if not exists
@@ -69,11 +73,19 @@ def main():
     # parse handlers from the import and add them to be linked
     for handler in start_hlr:
         handlers.append(handler)
+    for handler in genesis_phlr:
+        handlers.append(handler)
+    for handler in admin_hlr:
+        handlers.append(handler)
+        
+    # glob the filetree for anything with _handlers that exports handlers and link them 
+    # still need to import them tho ... 
+    # Path.glob()
     # link the handlers to the bot
     for handler in handlers:
         d.add_handler(handler)
 
-    d.add_error_handler(error_handler)
+    # d.add_error_handler(error_handler)
     globalhlr = MessageHandler(filters.ALL, general_hlr)
     d.add_handler(globalhlr)
     p.o(c.green,
