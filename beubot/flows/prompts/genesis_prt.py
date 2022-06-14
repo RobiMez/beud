@@ -1,6 +1,6 @@
 from telegram import Update, ReplyKeyboardMarkup, ReplyKeyboardRemove
 from telegram.ext import ContextTypes
-from ...keyboards.startkbd import dstaff_keyboard, start_keyboard
+from ..keyboards.genesis_keyboards import dstaff_keyboard, start_keyboard
 
 # welcome message for the user
 
@@ -28,7 +28,7 @@ async def prompt_genesis_role(update: Update, context: ContextTypes.DEFAULT_TYPE
             f"<i>You Currently are a normal user of BeuBot.</i>\n\n"
 
             f"If you are a <b>Restaurant manager</b> \n\tPlease click on Restaurant.\n"
-            f"\nIf you are a <b>Delivery staff</b> \n\tPlease click on Delivery staff.\n"
+            f"\n<s>If you are a <b>Delivery staff</b> \n\tPlease click on Delivery staff.</s>\n"
             f"\nOtherwise you can click on Skip to proceed with the rest of the setup.\n"),
         reply_markup=reply_markup)
 

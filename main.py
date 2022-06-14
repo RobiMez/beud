@@ -1,36 +1,25 @@
 """ Main script """
 
-from pathlib import Path
 import os
 import logging
 from logging import handlers as lhand
 from time import perf_counter
 
-from setuptools import Command
 
 from misc.colors import P, C
+
 # telegram api imports
 from telegram import Update
 from telegram.constants import ParseMode
-from telegram.ext import Defaults, PicklePersistence , filters
-from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler , MessageHandler
+from telegram.ext import Defaults, PicklePersistence, filters
+from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, MessageHandler
 
 
+from beubot.start import __handlers__ as start_hlr
+from beubot.flows.prompt_handlers.genesis_phlr import __handlers__ as genesis_phlr
+# from beubot.flows.prompt_handlers.nominal_phlr import __handlers__ as nominal_phlr
 
-
-# -- local imports [ breaking up this file ] -- #
-# from beubot.scopes.general.usercom import handlers as gen_user_hlr
-# from beubot.scopes.rest.restcom import handlers as restcom_hlr
-# from beubot.scopes.admin.admincom import admincom_hlr
-# from beubot.scopes.dispatcher.dispcom import dispcom_hlr
-# -- local imports [ breaking up this file ] -- #
-from beubot.scopes.general.start import __handlers__ as start_hlr
-from beubot.scopes.admin.admincom import __handlers__ as admin_hlr
-from beubot.scopes.general.flows.prompt_handlers.genesis_phlr import __handlers__ as genesis_phlr
-
-
-
-# make directory if not exists
+# Make directory if not exists
 if not os.path.exists('./logs'):
     os.makedirs('./logs')
 
@@ -58,6 +47,7 @@ async def error_handler(update: Update, context):
     p.o(c.orange, update)
     p.o(c.yellow, context)
 
+
 async def general_hlr(update: Update, context):
     p.o(c.b_black, context)
     p.o(c.b_black, update)
@@ -70,24 +60,25 @@ def main():
         defaults).persistence(persistence).build()
 
     handlers = []
-    # parse handlers from the import and add them to be linked
+
+    # Parse handlers from the import and add them to be linked
     for handler in start_hlr:
         handlers.append(handler)
     for handler in genesis_phlr:
         handlers.append(handler)
-    for handler in admin_hlr:
-        handlers.append(handler)
-        
-    # glob the filetree for anything with _handlers that exports handlers and link them 
-    # still need to import them tho ... 
+
+    # TODO: glob the filetree for anything with _handlers that exports handlers and link them
+    # still need to import them tho ...
     # Path.glob()
     # link the handlers to the bot
+
     for handler in handlers:
         d.add_handler(handler)
 
     # d.add_error_handler(error_handler)
     globalhlr = MessageHandler(filters.ALL, general_hlr)
     d.add_handler(globalhlr)
+    
     p.o(c.green,
         f"🔥 Started polling for updates in {str(round(st-perf_counter() , 2))[1:]} Secs.",
         bold=True)

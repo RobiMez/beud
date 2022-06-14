@@ -2,7 +2,7 @@
 import re
 from telegram import KeyboardButton
 
-reg_delivery_string = '🚚 Delivery staff'
+# reg_delivery_string = '🚚 Delivery staff'
 reg_restaurant_string = '🍔 Restaurant'
 skip_futher_priv_string = '✔️ Skip'
 
@@ -13,7 +13,7 @@ location_share_button = KeyboardButton(
 
 
 start_keyboard = [
-    [reg_delivery_string, reg_restaurant_string],
+    [ reg_restaurant_string],
     [skip_futher_priv_string]
 ]
 
