@@ -1220,3 +1220,5 @@ telegram.error.NetworkError: httpx HTTPError: [Errno -2] Name or service not kno
 2022-06-15 13:06:30,294 | telegram.ext._application | INFO | stop:523 | Application is stopping. This might take a moment.
 2022-06-15 13:06:30,295 | apscheduler.scheduler | INFO | shutdown:202 | Scheduler has been shut down
 2022-06-15 13:06:30,306 | telegram.ext._application | INFO | stop:548 | Application.stop() complete
+2022-06-15 13:24:23,030 | apscheduler.scheduler | INFO | start:171 | Scheduler started
+2022-06-15 13:24:23,031 | telegram.ext._application | INFO | start:492 | Application started
