@@ -46,6 +46,7 @@ async def error_handler(update: Update, context):
     p.o(c.red, context.error)
     p.o(c.orange, update)
     p.o(c.yellow, context)
+    
 
 
 async def general_hlr(update: Update, context):
@@ -77,7 +78,7 @@ def main():
     for handler in handlers:
         d.add_handler(handler)
 
-    # d.add_error_handler(error_handler)
+    d.add_error_handler(error_handler)
     globalhlr = MessageHandler(filters.ALL, general_hlr)
     d.add_handler(globalhlr)
     
