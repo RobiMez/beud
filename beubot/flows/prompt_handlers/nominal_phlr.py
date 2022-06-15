@@ -73,9 +73,9 @@ async def restaurant_inline_hlr(update, context):
     await context.user_data['message'].delete()
     await context.bot.send_message(
         chat_id=update.callback_query.message.chat_id,
-        text='Selected Restaurant : ' +
+        text='💾 Selected Restaurant : <b>' +
         selected_resturant['full_name'] +
-        "\n Please choose the food you want to order",
+        "\n</b> Please choose the food you want to order.",
         reply_markup=reply_markup)
 
 restaurant_inline_hlr.hlr = CallbackQueryHandler(
@@ -102,12 +102,12 @@ async def food_inline_hlr(update, context):
         }
     )
     await context.bot.send_message(
-        text='New order incoming from ' +
-        update.callback_query.from_user.username + ' for ' + food_selected,
-        chat_id=int(for_rest))
+        text='✨ New order incoming from<b> ' +
+        update.callback_query.from_user.username + '</b> for <i><b>' + food_selected+ '</b></i>',
+        chat_id=int(for_rest)) 
     await context.bot.send_message(
         chat_id=update.callback_query.message.chat_id,
-        text='Order added successfully')
+        text=f'🎉 An order for <b>{food_selected}</b> added successfully')
     # rest = orders.insert_one({
     #     "user_id": context.user_data['user_id'],
     #     "order_restaurant": context.user_data['nominal_selected_restaurant'],
@@ -153,7 +153,8 @@ async def prepare_hlr(update, context):
                 order['status'] = 'prepared'
                 # await order['message'].delete()
                 await context.bot.send_message(chat_id=update.effective_user.id, text='Order marked as prepared')
-                await context.bot.send_message(chat_id=int(order['from_id']), text=f'Order {order["food"]} has been marked as prepared')
+                await update.callback_query.message.delete()
+                await context.bot.send_message(chat_id=int(order['from_id']), text=f'Your order for<b> {order["food"]}</b> has been marked as prepared')
 
 prepare_hlr.hlr = CallbackQueryHandler(
     prepare_hlr, r'prepare_')
@@ -171,8 +172,9 @@ async def reject_hlr(update, context):
                 context.bot_data[
                     int(update.effective_user.id)]['orders'].remove(order)
                 # await order['message'].delete()
+                await update.callback_query.message.delete()
                 await context.bot.send_message(chat_id=update.effective_user.id, text='Order rejected')
-                await context.bot.send_message(chat_id=int(order['from_id']), text=f'Order {order["food"]} has been rejected')
+                await context.bot.send_message(chat_id=int(order['from_id']), text=f'Sorry but your order for <b>{order["food"]}</b> has been rejected.')
 reject_hlr.hlr = CallbackQueryHandler(
     reject_hlr, r'reject_')
 
@@ -182,22 +184,34 @@ async def view_pending_orders_hlr(update, context):
     # Starts the order placing flow
     print('Fetching all pending orders for this restaurant')
     orders = context.bot_data[update.effective_user.id]['orders']
-    for order in orders:
-        keyboard = [
-            [
-                InlineKeyboardButton(
-                    'Accept', callback_data="accept_" + order['food']+'_'+str(order['from_id'])),
-                InlineKeyboardButton(
-                    'Reject', callback_data="reject_" + order['food']+'_'+str(order['from_id']))]
-        ]
+    no_pending_orders = True
+    if orders :
+        for order in orders:
+            if not order['status'] == 'accepted':
+                no_pending_orders = False
+                keyboard = [
+                    [
+                        InlineKeyboardButton(
+                            '✅ Accept', callback_data="accept_" + order['food']+'_'+str(order['from_id'])),
+                        InlineKeyboardButton(
+                            '❌ Reject', callback_data="reject_" + order['food']+'_'+str(order['from_id']))]
+                ]
+                text = f"Order for <b><i>{order['food']}</i></b> from user <b>{str(context.bot_data[int(order['from_id'])]['full_name'])}</b>\nStatus: <code>{order['status'].capitalize()}</code>"
+                message = await context.bot.send_message(
+                    chat_id=update.effective_user.id,
+                    text=text,
+                    reply_markup=InlineKeyboardMarkup(keyboard))
+                order['message'] = message
+    else:
         message = await context.bot.send_message(
-            chat_id=update.effective_user.id,
-            text='An order for ' +
-            order['food'] + ' from ' +
-            str(context.bot_data[int(order['from_id'])]
-                ['full_name']) + ' is '+order['status'],
-            reply_markup=InlineKeyboardMarkup(keyboard))
-        order['message'] = message
+                chat_id=update.effective_user.id,
+                text='There are <b>no pending orders</b> for your restaurant at the moment. \n\n🏖 Chill back and wait until a user orders food from your restaurant.',
+                )
+    if no_pending_orders:
+        message = await context.bot.send_message(
+                chat_id=update.effective_user.id,
+                text='There are <b>no pending orders</b> for your restaurant at the moment. \n\n🏖 Chill back and wait until a user orders food from your restaurant.',)
+        
 view_pending_orders_hlr.hlr = MessageHandler(
     filters.Regex(str_r_view_orders), view_pending_orders_hlr)
 
@@ -206,8 +220,11 @@ async def view_accepted_orders_hlr(update, context):
     # Starts the order placing flow
     print('Fetching all accepted orders for this restaurant')
     orders = context.bot_data[update.effective_user.id]['orders']
+    no_accepts_flag = True
+    
     for order in orders:
         if order['status'] == 'accepted':
+            no_accepts_flag = False
             keyboard = [
                 [
                     InlineKeyboardButton(
@@ -215,13 +232,19 @@ async def view_accepted_orders_hlr(update, context):
                     InlineKeyboardButton(
                         'Reject', callback_data="reject_" + order['food']+'_'+str(order['from_id']))]
             ]
+            text = f"Order for <b><i>{order['food']}</i></b> from user <b>{str(context.bot_data[int(order['from_id'])]['full_name'])}</b><code> in Queue</code>"
             await context.bot.send_message(
                 chat_id=update.effective_user.id,
-                text='An order for ' +
-                order['food'] + ' from ' +
-                str(context.bot_data[int(order['from_id'])]
-                    ['full_name']) + ' is in queue',
+                text=text,
                 reply_markup=InlineKeyboardMarkup(keyboard))
+    if no_accepts_flag:
+        
+        message = await context.bot.send_message(
+            chat_id=update.effective_user.id,
+            text='There are <b>no accepted orders</b> for your restaurant at the moment.\n\nOrders that get accepted can be marked as prepared here. ',
+            )
+
+
 view_accepted_orders_hlr.hlr = MessageHandler(
     filters.Regex(str_r_view_accepted_orders), view_accepted_orders_hlr)
 
