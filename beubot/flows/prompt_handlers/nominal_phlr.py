@@ -187,7 +187,7 @@ async def view_pending_orders_hlr(update, context):
     no_pending_orders = True
     if orders :
         for order in orders:
-            if not order['status'] == 'accepted':
+            if not order['status'] == 'accepted' or order['status'] == 'prepared':
                 no_pending_orders = False
                 keyboard = [
                     [
