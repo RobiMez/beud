@@ -57,7 +57,7 @@ async def general_hlr(update: Update, context):
 def main():
     defaults = Defaults(parse_mode=ParseMode.HTML)
     persistence = PicklePersistence('Persistence')
-    d = ApplicationBuilder().token('5564359967:AAEBs6ntRLskO30isnHey8yEzcizFz2HmCc').defaults(
+    d = ApplicationBuilder().token('<token>').defaults(
         defaults).persistence(persistence).build()
 
     handlers = []
