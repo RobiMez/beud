@@ -2,7 +2,7 @@
 
  ##   Project is built with the bleeding edge version of python telegram bot ie. v20 prerelease0 and supports bot api 6.0. 
  
- ### bot can be found at @BeuDeliveriesBot
+ ### bot can be found at @BeuDeliveriesBot ( inactive to save on server resources , ask me for a demo )
  It implements cool things like , local pickle persistence , state management and also prompt-handler flows.
 
     To run it locally , clone the repo
